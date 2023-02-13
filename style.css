@@ -23,14 +23,16 @@ body{
     margin-top: 300px;
 }
 p{
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     font-family: monospace;
     color: turquoise;
-    position: relative;
-    top: 90px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(10px, 10px);
 }
 #light{
     display: flex;
